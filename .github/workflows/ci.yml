@@ -103,7 +103,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        registry: ["docker.io", "ghcr.io", "quay.io"]
+        registry: ["docker.io", "ghcr.io"]
     runs-on: ubuntu-latest
     steps:
       # Skip if this is fork and no credentials are provided.
